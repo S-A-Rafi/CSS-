@@ -37,6 +37,7 @@ h3{
 p{
     text-align: center;
     color: antiquewhite;
+    font-variant: small-caps;
 }
 button{
     display: flex;

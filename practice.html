@@ -5,93 +5,129 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-    div {
-        max-width: 600px;
-        background-color: lightgray;
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(43, 21, 248);
-        border-style: ridge;  
-        border-radius: 10px;      
-    }
-    .d2{
-        max-width: 600px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(248, 21, 97);
-        border-style: ridge;  
-        border-radius: 10px;
-    }
-    .d3{
-        max-width: 600px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(45, 206, 5);
-        border-style: ridge;  
-        border-radius: 10px;
-    }
-    .d4{
-        max-width: 300px;
-        height: 300px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(45, 206, 5);
-        border-style: ridge;  
-        border-top-left-radius: 100px;
-    }
-    .d5{
-        max-width: 290px;
-        height: 220px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(206, 12, 5);
-        border-style: ridge;  
-        border-top-left-radius: 100px;
-    }
-    .d6{
-        max-width: 250px;
-        height: 150px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(206, 5, 189);
-        border-style: ridge;  
-        border-top-left-radius: 100px;
-    }
-    .d7{
-        max-width: 180px;
-        height: 100px;
-        background-color: rgb(243, 243, 243);
-        padding: 20px;
-        margin: 0px 50px 5px 50px;
-        border: 20px solid rgb(243, 227, 5);
-        border-style: ridge;  
-        border-top-left-radius: 100px;
-    }
+   .d1{
+    width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    height: 300px;
+    background-color: rgb(253, 253, 245);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin-bottom: 5px;
+   }
+   .d7{
+    background-color: blue;
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin: 0px 2px 2px 0px;
+    border-radius: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 2px 2px 2px 2px;
+   }
+
+   .d7:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);
+}
+   .d8{
+    background-color: rgb(193, 107, 250);
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin: 0px 2px 2px 0px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 2px 2px 2px 2px;
+}
+   .d8:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);}
+   .d9{
+    background-color: rgb(195, 195, 202);
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin: 0px 2px 2px 0px;
+    border-top-left-radius: 90px;
+    text-align: right;
+    border-color: rgb(4, 4, 206);
+    border-width: 0.5px;
+    border-style: outset;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 2px 2px 2px 2px;
+}
+   .d9:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);
+}
+   .d10{
+    background-color: rgb(80, 80, 150);
+    width: 20%;
+    height: 120px;
+    float: left;
+    margin: 0px 2px 2px 0px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    margin: 2px 2px 2px 2px;
+}
+   .d10:hover{
+    cursor: pointer;
+    opacity: 0.8;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    transform: scale(1.1);
+}
+    
     </style>
-</head>
-<body>
-    <div>
-        This is our css lesson. CSS stands for cascading style sheet. CSS is the language for design our webpage. We need to learn CSS for looking good our website and software.
+    <body>
+    <div class="d1">
+    <div class="d7">
+        one
     </div>
-    <div class="d2">
-        This is our css lesson. CSS stands for cascading style sheet. CSS is the language for design our webpage. We need to learn CSS for looking good our website and software.
+    <div class="d8">
+        tow
     </div>
-    <div class="d3">
-        This is our css lesson. CSS stands for cascading style sheet. CSS is the language for design our webpage. We need to learn CSS for looking good our website and software.
+    <div class="d9">
+        three
     </div>
-    <div class="d4">
-        <div class="d5">
-            <div class="d6">
-                <div class="d7">
-                    This is CSS
-                </div>
-            </div>
-        </div>
+    <div class="d10">
+        four
     </div>
+</div>
+
+<div class="d1">
+    <div class="d7">
+        one
+    </div>
+    <div class="d8">
+        tow
+    </div>
+    <div class="d9">
+        three
+    </div>
+    <div class="d10">
+        four
+    </div>
+</div>
 </body>
 </html>
